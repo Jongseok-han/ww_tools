@@ -1,0 +1,40 @@
+# Environment variables (contains API keys)
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+tweet_images/
+tweet_images_llm/
+tweet_images_adk/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
